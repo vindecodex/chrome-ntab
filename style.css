@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Wallpoet&display=swap');
+html, body {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Wallpoet', cursive;
+}
+#greetings {
+  font-size: 3vw;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.3);
+  width: 800px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -100%);
+}
